@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\q\.node\corepack\yarn\1.22.15\bin\yarn.js add -D tailwindcss
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\q\AppData\Local\Microsoft\WindowsApps;;C:\_docs\projects\dev\Microsoft VS Code\bin;C:\Users\q\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\_docs\projects\dev\tinder-clone-blockchain\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "tinder-clone-blockchain",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "12.1.4",
+      "react": "18.0.0",
+      "react-dom": "18.0.0"
+    },
+    "devDependencies": {
+      "eslint": "8.12.0",
+      "eslint-config-next": "12.1.4",
+      "tailwindcss": "^3.0.23"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
